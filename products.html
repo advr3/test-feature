@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Style Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Urban Style</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                </ul>
+                <div class="nav-icons">
+                    <span class="cart-icon" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">🛒</span>
+                    <span class="user-icon" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">👤</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       
+
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Featured Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/4a90e2/ffffff?text=Jacket" alt="Denim Jacket">
+                            <span class="product-badge">New</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Denim Jacket</h3>
+                            <p class="product-price">$89.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/7b68ee/ffffff?text=Sneakers" alt="White Sneakers">
+                            <span class="product-badge sale">Sale</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>White Canvas Sneakers</h3>
+                            <p class="product-price">
+                                <span class="original-price">$79.99</span>
+                                <span class="sale-price">$59.99</span>
+                            </p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/50c878/ffffff?text=T-Shirt" alt="Basic T-Shirt">
+                        </div>
+                        <div class="product-info">
+                            <h3>Premium Cotton T-Shirt</h3>
+                            <p class="product-price">$29.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/ff6b6b/ffffff?text=Bag" alt="Leather Bag">
+                        </div>
+                        <div class="product-info">
+                            <h3>Leather Crossbody Bag</h3>
+                            <p class="product-price">$149.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/ffa500/ffffff?text=Jeans" alt="Blue Jeans">
+                        </div>
+                        <div class="product-info">
+                            <h3>Slim Fit Jeans</h3>
+                            <p class="product-price">$69.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://via.placeholder.com/300x300/da70d6/ffffff?text=Watch" alt="Watch">
+                            <span class="product-badge">Limited</span>
+                        </div>
+                        <div class="product-info">
+                            <h3>Minimalist Watch</h3>
+                            <p class="product-price">$199.99</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        
+      </div>
+    </div>
+  </div>
+</div>
+            
+    </main>
+     <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: hello@urbanstyle.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Address: 123 Fashion Ave, Style City, SC 12345</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <span>📘</span>
+                        <span>📷</span>
+                        <span>🐦</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Urban Style. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
